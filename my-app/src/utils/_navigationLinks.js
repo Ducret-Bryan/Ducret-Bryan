@@ -1,9 +1,11 @@
+import Home from "../pages/Home"
+
 const navigationLinks = [
-    { path: '/', label: 'Accueil' },
-    { path: '/parcours', label: 'Parcours' },
-    { path: '/competences', label: 'Compétences' },
-    { path: '/realisation', label: 'Réalisations' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/', label: 'Accueil', component: <Home /> },
+    { path: '/parcours', label: 'Parcours', component: '' },
+    { path: '/competences', label: 'Compétences', component: '' },
+    { path: '/realisation', label: 'Réalisations', component: '' },
+    { path: '/contact', label: 'Contact', component: '' },
 ]
 
 export default navigationLinks

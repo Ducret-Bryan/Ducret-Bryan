@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import colors from './colors'
+import { breakPoints } from '../_variables'
+import { rem } from '../_functions'
 
 const StyledGlobalStyle = createGlobalStyle`
     * {
@@ -22,6 +24,14 @@ const StyledGlobalStyle = createGlobalStyle`
         margin-left: auto;
         margin-right: auto;
     }
+
+    main > .container {
+        min-height: calc(100vh - 50px - 70px);
+        @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
+            min-height: calc(100vh - 100px - 40px);
+        }
+    }
+
 `
 
 function GlobalStyle() {

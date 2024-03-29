@@ -1,6 +1,6 @@
 import { FooterContainer } from './style'
 
-export function Footer() {
+function Footer() {
 
     return (
         <FooterContainer>
@@ -14,3 +14,5 @@ export function Footer() {
         </FooterContainer>
     )
 }
+
+export default Footer
