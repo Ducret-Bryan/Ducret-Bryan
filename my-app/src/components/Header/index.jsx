@@ -9,7 +9,7 @@ import logo from '../../assets/images/logo.png';
 import burgerIcons from '../../assets/images/icons/burger.svg';
 
 
-function Header({ to }) {
+function Header() {
     const [isOpen, setIsOpen] = useState(false)
     const isMobile = window.innerWidth < breakPoints.tablet_landscape;
     const { pathname } = useLocation();

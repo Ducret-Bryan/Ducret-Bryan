@@ -7,6 +7,7 @@ export const FooterContainer = styled.footer`
 padding: ${rem(10)};
 color: ${colors.white_opacity50};
 border-top: solid 1px ${colors.white_opacity50};
+padding-bottom: ${rem(60)};
 
 .container{
     display: flex;
@@ -25,6 +26,7 @@ a {
 }
 
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
+padding-bottom: ${rem(10)};
 .container {
 flex-direction: row;
 justify-content: space-between;

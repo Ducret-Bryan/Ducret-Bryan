@@ -72,7 +72,7 @@ right: 0;
 bottom: 50px;
 left: 0;
 border-top: ${rem(1)} solid white;
-background-colors: ${colors.background};
+background-color: ${colors.background};
 
 a {
     display: block;
