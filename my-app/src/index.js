@@ -5,6 +5,7 @@ import GlobalStyle from './utils/style/GlobalStyle'
 import './reset.css';
 
 import Header from './components/Header/index.jsx';
+import { Footer } from './components/Footer/index.jsx';
 
 const container = document.getElementById('root')
 const root = createRoot(container)
@@ -15,6 +16,7 @@ root.render(
     <Header />
     <Routes>
     </Routes>
+    <Footer />
   </Router>
 )
 

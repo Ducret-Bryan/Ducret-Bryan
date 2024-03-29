@@ -16,6 +16,12 @@ const StyledGlobalStyle = createGlobalStyle`
         color: #ffffff;
         margin: 0;
     }
+
+    .container {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 `
 
 function GlobalStyle() {
