@@ -5,13 +5,8 @@ import colors from '../../utils/style/colors'
 import { rem } from '../../utils/_functions'
 
 export const MainContainer = styled.div`
-
 .container {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 ${rem(10)};
-    height: 50px;
 }
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
 .container {
