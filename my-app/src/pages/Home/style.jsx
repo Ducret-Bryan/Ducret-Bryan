@@ -4,6 +4,8 @@ import colors from '../../utils/style/colors';
 import { breakPoints } from '../../utils/_variables';
 
 export const MainContainer = styled.main`
+display: flex;
+align-items: center;
 .container {
     height: 100%;
     padding: ${rem(10)};
