@@ -18,7 +18,7 @@ root.render(
     <Header />
     <Routes>
       {navigationLinks.map((link) => (
-        <Route path={link.path} element={link.component} />
+        <Route key={link.label} path={link.path} element={link.component} />
       ))}
     </Routes>
     <Footer />

@@ -5,7 +5,7 @@ function LinkBox({ linkArray }) {
     return (
         <LinkContainer>
             {linkArray.map((link) => (
-                <a href={link.link}>{link.label}</a>
+                <a key={link.label} href={link.link}>{link.label}</a>
             ))
             }
         </LinkContainer>

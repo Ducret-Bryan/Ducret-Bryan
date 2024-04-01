@@ -13,7 +13,7 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false)
     const isMobile = window.innerWidth < breakPoints.tablet_landscape;
     const { pathname } = useLocation();
-    console.log(pathname)
+
     return (
         <MainContainer>
             <div className='container'>
