@@ -5,7 +5,7 @@ import { MainContact, ContactCard, Card, Icon, Title, Infos, ContactMe, ContactF
 import iphone from '../../assets/images/icons/iphone.png';
 import placeHolder from '../../assets/images/icons/placeholder.png';
 import email from '../../assets/images/icons/email.png';
-import Separtor from "../../components/separator";
+import Separator from "../../components/Separator/";
 
 
 function Contact() {
@@ -39,7 +39,7 @@ function Contact() {
                 </ContactCard>
                 <ContactMe>
                     <h2>Contactez-moi</h2>
-                    <Separtor />
+                    <Separator />
                     <ContactForm action="" autoComplete="off">
                         <InputContainer>
                             <Left>
