@@ -4,7 +4,6 @@ import { breakPoints } from "../../utils/_variables"
 import colors from "../../utils/style/colors"
 
 export const Card = styled.div`
-padding: ${rem(10)};
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
 display: flex;
 gap: ${rem(16)};
@@ -26,7 +25,8 @@ font-weight: bold;
 `
 
 export const Description = styled.p`
-padding: ${rem(10)} 0;
+max-width: ${rem(650)};
+padding-top: ${rem(10)};
 letter-spacing: ${rem(0.5)};
 color: ${colors.white_opacity70};
 `

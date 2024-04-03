@@ -5,7 +5,8 @@ const colors = {
     white_opacity50: 'rgba(255, 255, 255, 0.5)',
     white_opacity70: 'rgba(255, 255, 255, 0.7)',
     hr_secondary: '#333333',
-    primary: '#007ced'
+    primary: '#007ced',
+    primary_opacity50: 'rgba(0, 124, 237, 0.5)'
 }
 
 export default colors;
