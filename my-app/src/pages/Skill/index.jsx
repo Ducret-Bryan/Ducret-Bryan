@@ -1,7 +1,8 @@
 import MainTitle from '../../components/MainTitle/'
-import Separator from '../../components/Separator'
+import SecondTitle from '../../components/SecondTitle'
 import CardSkill from '../../components/CardSkill'
-import { SkillMain, SecondTitle, TabsList, Tab, TraitSeparator, TabsContent, TabPannel } from './style'
+import { SkillMain } from './style'
+import { TabsList, Tab, TraitSeparator, TabsContent, TabPannel } from '../../utils/style/tabs'
 import { useState } from 'react'
 import dataSkill from './data';
 
@@ -12,10 +13,7 @@ function Skill() {
         <SkillMain>
             <MainTitle label={"Mes Compétences"} />
             <div className="container">
-                <SecondTitle>
-                    <h2>Qu'est-ce que je connais ?</h2>
-                    <Separator />
-                </SecondTitle>
+                <SecondTitle label={"Qu'est-ce que je connais ?"} />
                 <TabsList>
                     <Tab onClick={() => setActive('frontEnd')}><h3 className={(active === 'frontEnd') ? "active" : ""}>Front End</h3></Tab>
                     <Tab onClick={() => setActive('backEnd')}><h3 className={(active === 'backEnd') ? "active" : ""}>Back End</h3></Tab>
