@@ -1,5 +1,6 @@
 import { SepratorContainer, BlueTrait, WhiteTrait } from "./style"
-function Separtor() {
+
+function Separator() {
     return (
         <SepratorContainer>
             <BlueTrait />
@@ -8,4 +9,4 @@ function Separtor() {
     )
 }
 
-export default Separtor
+export default Separator
