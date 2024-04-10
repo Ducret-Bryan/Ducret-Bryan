@@ -19,6 +19,7 @@ export const MainContainer = styled.div`
 `
 
 export const HeaderContainer = styled.header`
+z-index: 10;
 min-width: 50px;
 position: fixed;
 right: 0;
@@ -67,6 +68,7 @@ span {
 `
 
 export const NavContainer = styled.nav`
+z-index: 10;
 position: fixed;
 right: 0;
 bottom: 50px;
