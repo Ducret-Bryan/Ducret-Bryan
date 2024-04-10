@@ -10,8 +10,6 @@ function Realisation() {
     const [filter, setFilter] = useState('')
     const isMobile = window.innerWidth < breakPoints.tablet_landscape;
 
-
-    console.log(dataFilter)
     return (
         <RealisationMain>
             <MainTitle label="Mes Réalisations" />
@@ -29,12 +27,12 @@ function Realisation() {
                 <div>
                     <SecondTitle label={'Galerie'} />
                     <Filter>
-                        {!isMobile ? dataFilter.map((data) => (
-                            <ButtonFilter onClick={() => setFilter(data)}>{data.slice(0, 1).toUpperCase() + data.slice(1)}</ButtonFilter>
+                        {!isMobile ? dataFilter.map((data, index) => (
+                            <ButtonFilter key={index} onClick={() => setFilter(data)}>{data.slice(0, 1).toUpperCase() + data.slice(1)}</ButtonFilter>
                         )) :
                             <SelectFilter onChange={(e) => setFilter(e.target.value)}>
-                                {dataFilter.map((data) => (
-                                    <option value={data}>{data.slice(0, 1).toUpperCase() + data.slice(1)}</option>
+                                {dataFilter.map((data, index) => (
+                                    <option key={index} value={data}>{data.slice(0, 1).toUpperCase() + data.slice(1)}</option>
                                 ))}
                             </SelectFilter>
                         }

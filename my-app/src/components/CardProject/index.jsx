@@ -14,8 +14,8 @@ function CardProject({ project }) {
                             {project.description}
                         </Description>
                         <TagList>
-                            {project.tags.map((tag) => (
-                                <Tag>{tag}</Tag>
+                            {project.tags.map((tag, index) => (
+                                <Tag key={index}>{tag}</Tag>
                             ))}
                         </TagList>
                     </Infos>
