@@ -20,6 +20,10 @@ h1{
     font-weight: bold;
 }
 
+p{
+    padding: ${rem(6)};
+    position : absolute;
+}
 
 @media screen and (min-width: ${breakPoints.laptop}px) {
     .container {
