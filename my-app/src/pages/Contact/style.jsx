@@ -4,12 +4,6 @@ import colors from '../../utils/style/colors';
 import { breakPoints } from '../../utils/_variables';
 
 export const MainContact = styled.main`
-padding-top: ${rem(28)};
-padding-bottom: ${rem(14)};
-
-& > .container {
-    padding: ${rem(10)}
-}
 
 @media screen and (min-width: ${breakPoints.laptop}px) {
     & > .container {
@@ -55,16 +49,6 @@ color: ${colors.white_opacity50};
 export const ContactMe = styled.div`
 padding-top: ${rem(10)};
 
-h2 {
-    font-size: ${rem(20)};
-    font-weight: bold;
-}
-
-@media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-    h2 {
-        font-size: ${rem(28)};
-    }
-}
 @media screen and (min-width: ${breakPoints.laptop}px) {
 flex-grow: 1;
 }

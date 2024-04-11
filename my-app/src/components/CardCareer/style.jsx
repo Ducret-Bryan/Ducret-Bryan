@@ -9,7 +9,7 @@ flex-direction: column;
 gap: ${rem(6)};
 font-size: ${rem(19)};
 
-@media screen and (min-width: ${breakPoints.tablet_landscape}px) {
+@media screen and (min-width: ${breakPoints.laptop}px) {
     flex-direction: row;
     justify-content: space-between;
 }
@@ -21,6 +21,7 @@ font-weight: bold;
 
 export const Company = styled.div`
 font-style: italic;
+padding-right: ${rem(6)};
 `
 
 export const List = styled.ul`

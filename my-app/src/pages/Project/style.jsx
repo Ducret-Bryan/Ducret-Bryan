@@ -4,18 +4,9 @@ import colors from '../../utils/style/colors'
 import { breakPoints } from '../../utils/_variables'
 
 export const ProjectMain = styled.main`
-    padding-top: ${rem(28)};
-    padding-bottom: ${rem(14)};
-
-    & > .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: ${rem(16)};
-    }
 
 @media only screen and (min-width: ${breakPoints.laptop}px) {
     & > .container {
-    padding: ${rem(24)};
     display: flex;
     gap: ${rem(24)}
     }

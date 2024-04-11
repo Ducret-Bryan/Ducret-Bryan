@@ -2,16 +2,7 @@ import styled from "styled-components";
 import { rem } from "../../utils/_functions";
 import colors from "../../utils/style/colors";
 
-export const RealisationMain = styled.main`
-    padding-top: ${rem(28)};
-    padding-bottom: ${rem(14)};
-
-    & > .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: ${rem(10)}
-}
-`
+export const RealisationMain = styled.main``
 
 export const ClientList = styled.ul`
 padding: ${rem(6)};

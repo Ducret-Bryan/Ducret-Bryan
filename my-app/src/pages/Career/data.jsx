@@ -15,7 +15,7 @@ const data = {
             "key": "experience_2",
             "icon": [{ image }, "icons"],
             "date": "Janvier 2019 - Janvier 2023",
-            "job_company": "CDI - Celtex Frane",
+            "job_company": "CDI - Celtex France",
             "description": "Conducteur de ligne dans une entreprise de production d’essuis-main, drap d’examen,... Ancien poste: Mandrineur, Fin de ligne",
             "list": [
                 'Gestion de machine en automomie',

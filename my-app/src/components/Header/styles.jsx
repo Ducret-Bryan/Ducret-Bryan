@@ -10,7 +10,7 @@ export const MainContainer = styled.div`
 }
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
 .container {
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ justify-content: center;
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
 position: sticky;
 top: 0;
-height: ${rem(100)};
+height: ${rem(70)};
 border: 0;
 }
 `
