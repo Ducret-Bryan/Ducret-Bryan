@@ -9,7 +9,7 @@ export const dataProject = [
         'description': 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         'tags': ['React', 'PHP'],
         'filter_tag': ['all', 'professionnel'],
-        'url': '/'
+        'url': '/project_1'
     },
     {
         'name': 'Projet n°2',
