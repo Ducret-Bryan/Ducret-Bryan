@@ -35,7 +35,7 @@ export const TraitSeparator = styled.hr`
 display: none;
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
 display: block;
-height: 250px;
+height: 150px;
 border: 0;
 grid-column: 2/3;
 grid-row: 2;
@@ -46,7 +46,7 @@ border-right: solid 1px white;
 // Right - Content Tabs  \\
 export const TabsContent = styled.div`
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-    max-height: 460px;
+    max-height: 280px;
     overflow-y: auto;
     scrollbar-color: ${colors.primary} transparent;
     scrollbar-width: thin;
@@ -63,7 +63,7 @@ export const TabPannel = styled.div`
 padding: ${rem(10)} 0;
 display: flex;
 flex-direction: column;
-gap: ${rem(30)};
+gap: ${rem(24)};
 
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
     ${props => (props.active) ? "" : "display:none"};

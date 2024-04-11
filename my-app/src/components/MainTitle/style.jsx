@@ -6,7 +6,7 @@ import { breakPoints } from "../../utils/_variables";
 export const TitleContainer = styled.div`
 background-color: ${colors.background_title};
 .container {
-    height: 150px;
+    height: 120px;
     padding-left: ${rem(20)};
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ h1{
     }
     h1{
     padding-left: ${rem(10)};
-    font-size: ${rem(48)};
+    font-size: ${rem(44)};
 }
 }
 `
