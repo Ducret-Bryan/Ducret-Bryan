@@ -8,6 +8,7 @@ import './reset.css';
 
 import Header from './components/Header/index.jsx';
 import Footer from './components/Footer/index.jsx';
+import Project from './pages/Project/index..jsx';
 
 const container = document.getElementById('root')
 const root = createRoot(container)
@@ -20,6 +21,7 @@ root.render(
       {navigationLinks.map((link) => (
         <Route key={link.label} path={link.path} element={link.component} />
       ))}
+      <Route path='/realisation/:nameProject' element={<Project />} />
     </Routes>
     <Footer />
   </Router>

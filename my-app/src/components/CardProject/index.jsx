@@ -6,7 +6,7 @@ function CardProject({ project }) {
     return (
         <Card>
             <a href={project.url}>
-                <Image src={project.image} />
+                <Image src={project.image} alt='photo project' />
                 {!isMobile ? (
                     <Infos>
                         <Title>{project.name}</Title>

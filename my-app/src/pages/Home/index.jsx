@@ -4,8 +4,8 @@ import LinkBox from '../../components/LinkBox';
 
 function Home() {
     const linkArray = [
-        { link: '/realisation', label: 'Réalisation' },
-        { link: '/contact', label: 'Contact' }
+        { link: '/realisation', label: 'Réalisation', inner: true },
+        { link: '/contact', label: 'Contact', inner: true }
     ]
     return (
         <MainContainer>

@@ -21,8 +21,16 @@ a {
     -ms-border-radius: ${rem(40)};
     -o-border-radius: ${rem(40)};
     border-radius: ${rem(40)};
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: ${rem(8)};
 }
 
+img {
+    width: ${rem(14)};
+}
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
     a {
         width: auto;
