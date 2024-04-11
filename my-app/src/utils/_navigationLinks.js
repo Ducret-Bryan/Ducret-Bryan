@@ -8,7 +8,7 @@ const navigationLinks = [
     { path: '/', label: 'Accueil', component: <Home /> },
     { path: '/parcours', label: 'Parcours', component: <Career /> },
     { path: '/competences', label: 'Compétences', component: <Skill /> },
-    { path: '/realisation', label: 'Réalisations', component: <Realisation /> },
+    { path: '/realisations', label: 'Réalisations', component: <Realisation /> },
     { path: '/contact', label: 'Contact', component: <Contact /> },
 ]
 

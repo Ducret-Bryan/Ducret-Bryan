@@ -21,7 +21,7 @@ root.render(
       {navigationLinks.map((link) => (
         <Route key={link.label} path={link.path} element={link.component} />
       ))}
-      <Route path='/realisation/:nameProject' element={<Project />} />
+      <Route path='/realisations/:nameProject' element={<Project />} />
     </Routes>
     <Footer />
   </Router>
