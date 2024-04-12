@@ -26,7 +26,7 @@ font-weight: bold;
 
 export const Description = styled.p`
 max-width: ${rem(650)};
-padding-top: ${rem(10)};
+padding-top: ${rem(8)};
 letter-spacing: ${rem(0.5)};
 color: ${colors.white_opacity70};
 `

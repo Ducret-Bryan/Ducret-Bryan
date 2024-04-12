@@ -4,10 +4,9 @@ import { breakPoints } from "../../utils/_variables"
 import { rem } from "../../utils/_functions"
 
 export const FooterContainer = styled.footer`
-padding: ${rem(10)};
-color: ${colors.white_opacity50};
+height: 16vh;
 border-top: solid 1px ${colors.white_opacity50};
-padding-bottom: ${rem(60)};
+padding-bottom: 8vh;
 
 .container{
     display: flex;
@@ -15,6 +14,7 @@ padding-bottom: ${rem(60)};
     justify-content: center;
     align-items: center;
     gap: ${rem(10)};
+    color: ${colors.white_opacity50};
 }
 ul {
     display: flex;
@@ -26,7 +26,9 @@ a {
 }
 
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-padding-bottom: ${rem(10)};
+height: 5vh;
+padding-bottom: 0;
+padding: 0 ${rem(16)};
 .container {
 flex-direction: row;
 justify-content: space-between;

@@ -13,7 +13,7 @@ export const ProjectMain = styled.main`
 } 
 `
 export const Left = styled.div`
-h2, p, ul {
+p {
     padding-top: ${rem(10)}
 }
 ul {
@@ -38,7 +38,8 @@ ul {
 `
 export const Right = styled.div`
 @media only screen and (min-width: ${breakPoints.laptop}px) {
-    order: 2;    
+    order: 2;
+    padding-top: ${rem(24)};
 } 
 `
 

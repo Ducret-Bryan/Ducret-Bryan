@@ -14,6 +14,9 @@ function Header() {
     const isMobile = window.innerWidth < breakPoints.tablet_landscape;
     const { pathname } = useLocation();
 
+    const pathname_split = pathname.split('/')
+    pathname_split.shift()
+    console.log(pathname_split[0])
     return (
         <MainContainer>
             <div className='container'>
@@ -32,7 +35,7 @@ function Header() {
                 {(isMobile && isOpen) || !isMobile ? (
                     <NavContainer>
                         {navigationLinks.map((link) => (
-                            <Link key={link.path} to={link.path} className={(link.path === pathname) ? "active" : ""}>
+                            <Link key={link.path} to={link.path} className={(link.path === pathname || link.path === '/' + pathname_split[0]) ? "active" : ""}>
                                 {link.label}
                             </Link>
                         ))}
