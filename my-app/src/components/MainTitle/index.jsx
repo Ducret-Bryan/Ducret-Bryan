@@ -7,8 +7,6 @@ function MainTitle({ label }) {
     pathname_split.shift()
     pathname_split.pop()
 
-    console.log(pathname_split)
-
     return (
         <TitleContainer>
             <hr />

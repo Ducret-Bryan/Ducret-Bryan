@@ -41,7 +41,7 @@ border-radius: ${rem(5)};
 
 & > option {
     background-color: ${colors.background};
-    height: ${rem(25)};
+    height: 25px;
 }
 `
 

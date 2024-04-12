@@ -25,14 +25,14 @@ padding-right: ${rem(6)};
 `
 
 export const List = styled.ul`
-padding-top: ${rem(10)};
+padding-top: ${rem(6)};
 color: ${colors.white_opacity70};
 list-style-type: disc;
 list-style: inside; 
 `
 
 export const TagBox = styled.div`
-padding-top: ${rem(10)};
+padding-top: ${rem(8)};
 display: flex;
 flex-wrap: wrap;
 gap: ${rem(10)};

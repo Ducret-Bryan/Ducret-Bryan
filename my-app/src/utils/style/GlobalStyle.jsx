@@ -28,20 +28,25 @@ const StyledGlobalStyle = createGlobalStyle`
     }
 
     main {
-        min-height: calc(100vh - 50px - 70px);
+        min-height: calc(100vh - 16vh);
 
         & > .container {
+            min-height: 69vh;
             max-width: 1200px;
             margin: 0 auto;
-            padding: ${rem(16)}
+            padding: 0 ${rem(16)}
         }
         @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-            min-height: calc(100vh - 70px - 40px);
+            min-height: calc(100vh - 15vh);
+            & > .container {
+            min-height: 64vh;
+            }
         }
 
         @media only screen and (min-width: ${breakPoints.laptop}px) {
             & > .container {
-            padding: ${rem(24)};
+            min-height: 62vh;
+            padding: 0 ${rem(24)};
             }
         } 
     }

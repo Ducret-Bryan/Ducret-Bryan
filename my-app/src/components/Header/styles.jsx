@@ -5,12 +5,15 @@ import colors from '../../utils/style/colors'
 import { rem } from '../../utils/_functions'
 
 export const MainContainer = styled.div`
+background-color: ${colors.background};
 .container {
     padding: 0 ${rem(10)};
 }
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
+    position: sticky;
+    top: 0;
 .container {
-    height: 70px;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,28 +31,27 @@ left: 0;
 
 background-color: ${colors.background};
 border-top: ${rem(1)} solid white;
-height: 50px;
+height: 8vh;
 display: flex;
 justify-content: center;
 
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-position: sticky;
-top: 0;
-height: ${rem(70)};
+position: relative;
+height: 10vh;
 border: 0;
 }
 `
 
 export const LogoContainer = styled.div`
 position: absolute;
-top: 7px;
-left: 7px;
+top: 1.5vh;
+left: 1.5vh;
 display: flex;
 align-items: center;
-gap: ${rem(5)};
+gap: ${rem(8)};
 img {
-    width: 36px;
-    height: 36px;
+    width: 5vh;
+    height: 5vh;
 }
 p {
     display: none;

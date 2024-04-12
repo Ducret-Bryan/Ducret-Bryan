@@ -46,7 +46,7 @@ border-right: solid 1px white;
 // Right - Content Tabs  \\
 export const TabsContent = styled.div`
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
-    max-height: 280px;
+    max-height: 56vh;
     overflow-y: auto;
     scrollbar-color: ${colors.primary} transparent;
     scrollbar-width: thin;
@@ -60,7 +60,6 @@ export const TabsContent = styled.div`
 `
 // TabPannel \\
 export const TabPannel = styled.div`
-padding: ${rem(10)} 0;
 display: flex;
 flex-direction: column;
 gap: ${rem(24)};
