@@ -9,6 +9,7 @@ import './reset.css';
 import Header from './components/Header/index.jsx';
 import Footer from './components/Footer/index.jsx';
 import Project from './pages/Project/index..jsx';
+import Error from './pages/Error/index.jsx';
 
 const container = document.getElementById('root')
 const root = createRoot(container)
@@ -22,6 +23,7 @@ root.render(
         <Route key={link.label} path={link.path} element={link.component} />
       ))}
       <Route path='/realisations/:nameProject' element={<Project />} />
+      <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
   </Router>
