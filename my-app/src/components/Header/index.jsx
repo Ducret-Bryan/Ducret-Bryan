@@ -16,7 +16,7 @@ function Header() {
 
     const pathname_split = pathname.split('/')
     pathname_split.shift()
-    console.log(pathname_split[0])
+
     return (
         <MainContainer>
             <div className='container'>

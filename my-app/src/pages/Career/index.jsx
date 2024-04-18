@@ -11,7 +11,7 @@ function Career() {
 
     return (
         <CareerMain>
-            <MainTitle label={"Mes Compétences"} />
+            <MainTitle label={"Mon Parcours"} />
             <div className="container">
                 <SecondTitle label={"Qu'est-ce que j'ai fais ?"} />
                 <TabsList>

@@ -78,7 +78,7 @@ font-weight: bold;
     font-size: ${rem(62)};
 }
 `
-export const About = styled.p`
+export const About = styled.div`
 padding-top: ${rem(5)};
 font-size: ${rem(18)};
 line-height: ${rem(28)};
