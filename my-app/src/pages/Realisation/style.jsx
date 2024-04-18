@@ -8,7 +8,6 @@ export const ClientList = styled.ul`
 padding: ${rem(6)};
 display: flex;
 flex-wrap: wrap;
-justify-content: space-evenly;
 gap: ${rem(16)};
 color: ${colors.white_opacity50}; 
 `

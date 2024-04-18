@@ -4,6 +4,7 @@ import { breakPoints } from "../../utils/_variables"
 import colors from "../../utils/style/colors"
 
 export const HeadCard = styled.div`
+width: 100%;
 display: flex;
 flex-direction: column;
 gap: ${rem(6)};

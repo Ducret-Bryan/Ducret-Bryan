@@ -1,16 +1,16 @@
-import { Card, Icon, Title, Description } from './style'
+import { Card, Icon, Infos, Title, Description } from './style'
 
 function CardSkill({ data }) {
-    console.log(data.icon[0].image)
+
     return (
         <Card>
-            <Icon src={data.icon[0].image} alt={data.icon[1]} />
-            <div>
+            <Icon src={data.icon[0]} alt={data.icon[1]} />
+            <Infos>
                 <Title>{data.title}</Title>
                 <Description>
                     {data.description}
                 </Description>
-            </div>
+            </Infos>
         </Card>
     )
 }

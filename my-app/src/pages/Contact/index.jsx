@@ -2,9 +2,9 @@ import MainTitle from "../../components/MainTitle";
 import { MainContact, ContactCard, Card, Icon, Title, Infos, ContactMe, ContactForm, InputContainer, Left, Right, ButtonForm, Submit, Reset } from './style';
 
 //Image 
-import iphone from '../../assets/images/icons/iphone.png';
-import placeHolder from '../../assets/images/icons/placeholder.png';
-import email from '../../assets/images/icons/email.png';
+import iphone from '../../assets/images/icons/contact/iphone.png';
+import placeHolder from '../../assets/images/icons/contact/placeholder.png';
+import email from '../../assets/images/icons/contact/email.png';
 import Separator from "../../components/Separator/";
 
 
@@ -18,21 +18,21 @@ function Contact() {
                     <Card>
                         <Icon src={iphone} alt="iphone icons" />
                         <div>
-                            <Title>07 xx xx xx xx</Title>
+                            <Title>07 68 14 27 35</Title>
                             <Infos>N'hésitez pas à me laisser un message si besoin.</Infos>
                         </div>
                     </Card>
                     <Card>
                         <Icon src={placeHolder} alt="placeholder icons" />
                         <div>
-                            <Title>Paris, 75016</Title>
-                            <Infos>Je suis situé dans le ...</Infos>
+                            <Title>Saint-Dizier, 52100</Title>
+                            <Infos>Je suis situé dans le Grand-Est, plus précisément en Haute-Marne.</Infos>
                         </div>
                     </Card>
                     <Card>
                         <Icon src={email} alt="email icons" />
                         <div>
-                            <Title>Jean.Dupont@exemple.com</Title>
+                            <Title>ducret.bryan@gmail.com</Title>
                             <Infos>Vous pouvez aussi m'envoyer un message via le formulaire.</Infos>
                         </div>
                     </Card>

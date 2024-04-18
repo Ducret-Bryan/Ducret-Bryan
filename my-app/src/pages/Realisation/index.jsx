@@ -2,7 +2,7 @@ import { RealisationMain, ClientList, Filter, ButtonFilter, SelectFilter, Projec
 import MainTitle from '../../components/MainTitle'
 import SecondTitle from '../../components/SecondTitle'
 import CardProject from '../../components/CardProject'
-import { dataFilter, dataProject } from './data'
+import { dataClient, dataFilter, dataProject } from './data'
 import { useState } from 'react'
 import { breakPoints } from '../../utils/_variables'
 
@@ -17,11 +17,9 @@ function Realisation() {
                 <div>
                     <SecondTitle label={'Client'} />
                     <ClientList>
-                        <li>Épicerie Thouvenot</li>
-                        <li>Épicerie Thouvenot</li>
-                        <li>Épicerie Thouvenot</li>
-                        <li>Épicerie Thouvenot</li>
-                        <li>Épicerie Thouvenot</li>
+                        {dataClient.map((client) => (
+                            <li>{client}</li>
+                        ))}
                     </ClientList>
                 </div>
                 <div>

@@ -18,6 +18,11 @@ height: ${rem(48)};
 display: block;
 }
 `
+
+export const Infos = styled.div`
+width: 80%;
+`
+
 export const Title = styled.h4`
 font-size: ${rem(18)};
 letter-spacing: ${rem(0.1)};
