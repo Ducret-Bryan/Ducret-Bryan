@@ -137,6 +137,12 @@ button {
     cursor: pointer;
     }
 `
+
+export const ErrorMessage = styled.div`
+color: #FF0921;
+text-align: center;
+`
+
 export const Submit = styled.button`
 width: 50%;
 @media screen and (min-width: ${breakPoints.tablet_landscape}px) {
